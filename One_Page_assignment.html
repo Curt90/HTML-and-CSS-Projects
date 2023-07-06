@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dog Website</title>
+	<style>
+		body {
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin-top: 0;
+		}
+		main {
+			margin: 20px auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		img {
+			display: block;
+			margin: 20px auto;
+			max-width: 100%;
+		}
+		iframe {
+			display: block;
+			margin: 20px auto;
+			max-width: 100%;
+		}
+		form {
+			margin-top: 20px;
+		}
+		label, input, textarea {
+			display: block;
+			font-size: 16px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			padding: 10px 20px;
+		}
+		input[type="submit"]:hover {
+			background-color: #666;
+		}
+	</style>
+</head>
+<body>
+<header>
+    <h1>Dog Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Welcome to our Dog Website!</h2>
+        <p>We are a group of dog lovers who want to share our passion with the world. Our website is dedicated to all things dog-related.</p>
+    </section>
+
+    <section id="pictures">
+        <h2>Check out these cute dogs!</h2>
+        <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Dog picture">
+        <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Dog picture">
+        <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Dog picture">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <section id="video">
+        <h2>Watch this video of a dog doing tricks!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+</main>
+
+<footer>
+    &copy; Dog Website 2023
+</footer>
+
+</body>
+</html>
